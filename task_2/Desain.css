@@ -1,0 +1,128 @@
+body {
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(to right, #8da37e, #8da37e);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px; 
+  padding: 30px; 
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2 {
+  color: #8da37e;
+  font-size: 28px; 
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px; 
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #fafafa;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #8da37e;
+  background-color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #8da37e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px; 
+}
+
+button:hover {
+  background-color: #8da37e;
+  transition: background-color 0.3s;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #555;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+.box {
+  padding: 20px;
+  background-color: #e0f7fa;
+  border: 1px solid #b2ebf2;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #00796b;
+  font-style: italic;
+}
+
+.helper-text {
+  color: #777;
+  font-style: italic;
+}
+
+input:hover {
+  border-color: #8da37e;
+  background-color: #ecf0f1;
+}
